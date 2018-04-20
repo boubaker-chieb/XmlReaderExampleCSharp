@@ -23,7 +23,7 @@ namespace ConsoleApp3
             foreach (var item in ReadRates("C:/Users/BE/Source/Repos/scharpCertification/ConsoleApp3/rateXml.xml"))
             {
                 Console.WriteLine("rate Category : {0}, rate Date : {1}, rate value : {2}", item.Category, item.DateTime, item.Value);
-                Console.WriteLine("*****************************************");
+                Console.WriteLine("***********************************************");
             }
             Console.ReadKey();
         }
