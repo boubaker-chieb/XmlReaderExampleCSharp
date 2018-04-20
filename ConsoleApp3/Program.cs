@@ -11,11 +11,12 @@ namespace ConsoleApp3
 {
     class Program
     {
-        public class Rate
+        private class Rate
         {
             public string Category { get; set; }
             public DateTime DateTime { get; set; }
             public decimal Value { get; set; }
+
         }
         static void Main(string[] args)
         {
